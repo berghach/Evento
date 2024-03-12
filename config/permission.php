@@ -150,13 +150,13 @@ return [
      * See documentation to understand supported syntax.
      */
 
-    'enable_wildcard_permission' => false,
+    'enable_wildcard_permission' => true,
 
     /*
      * The class to use for interpreting wildcard permissions.
      * If you need to modify delimiters, override the class and specify its name here.
      */
-    // 'permission.wildcard_permission' => Spatie\Permission\WildcardPermission::class,
+    'permission.wildcard_permission' => Spatie\Permission\WildcardPermission::class,
 
     /* Cache-specific settings */
 

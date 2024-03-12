@@ -20,7 +20,6 @@ class PermissionSeeder extends Seeder
             ['name' => 'add events'],
             ['name' => 'edit events'],
             ['name' => 'delete events'],
-            ['name' => 'restric users'],
             // ['name' => ''],
         ];
 
